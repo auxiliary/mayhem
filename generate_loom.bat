@@ -1,1 +1,0 @@
-ffmpeg -y -framerate 30 -i images/%%05d.png -s %1 -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p viewer/examples/tablaeu/loom.mp4
